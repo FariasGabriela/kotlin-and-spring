@@ -9,9 +9,9 @@ class Note {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Long = 0;
 
-    val title: String = ""
+    var title: String = ""
 
-    val body: String = ""
+    var body: String = ""
 
 
 }
